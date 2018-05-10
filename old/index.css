@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+}
+div {
+ height: 800px;   
+}
+
+#first {
+    background-color: rgb(85,98,112);
+    position: sticky;
+    top: 0;
+    z-index: -4;
+}
+
+#second {
+    background-color: #4ECDC4;
+    position: sticky;
+    top: 17px;
+    z-index: -3;
+}
+
+#third {
+    background-color: #C7F464;
+    position: sticky;
+    top: 34px;
+    z-index: -2;
+}
+
+#fourth {
+    position: relative;
+    top:17px;
+    background-color: #FF6B6B;
+}
+
+h1 {
+    font-family: Futura Lt BT;
+    font-size: 0.9em;
+    text-align: center;
+    background-color: rgba(100, 98, 112, 0.5)
+}
