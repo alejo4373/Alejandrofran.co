@@ -1820,9 +1820,9 @@
 				left: 0;
 			}
 
-				.box.style1.right .image img {
-					right: 0;
-				}
+        .box.style1.right .image img {
+          right: 0;
+        }
 
 			.box.style1.right .inner {
 				margin-left: 50%;
