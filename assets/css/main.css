@@ -1869,7 +1869,7 @@
 					top: 0;
 					left: 50%;
 					height: 100%;
-					border-left: solid 1px #fff;
+					/* border-left: solid 1px #fff; */
 				}
 
 				.box.style2 .inner .row {
@@ -1883,7 +1883,7 @@
 						top: 50%;
 						left: 20px;
 						width: calc(100% - 40px);
-						border-bottom: solid 1px #fff;
+						/* border-bottom: solid 1px #fff; */
 					}
 
 				.box.style2 .inner .image {
