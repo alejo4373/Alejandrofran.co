@@ -1,11 +1,14 @@
 import React from 'react'
 import ProjectCard from './ProjectCard'
+import FA from 'react-fontawesome'
 
 const projects = [
   {
     title: "Foobar, Drinks & Sports",
     description: "Full-Stack Web App that enables sports fanatics to find establishments that will be showing a game or fight of their interest. Built with ReactJS and AWS as backend services.",
-    imgUrl: "/images/foobar.png"
+    imgUrl: "/images/foobar.png",
+    live: "https://foobar-sports-and-beer.herokuapp.com/",
+    repo: "http://github.com/alejo4373/foobar"
   },
 
   {
@@ -29,6 +32,8 @@ function Projects() {
   return (
     <div className="projects">
       <div className="inner-frame">
+        <h2>Projects</h2>
+        <FA name="rocket" />
         <div className="grid">
           {projects.map(p => <ProjectCard project={p} />)}
         </div>

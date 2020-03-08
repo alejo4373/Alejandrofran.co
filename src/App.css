@@ -6,12 +6,112 @@ body, html {
   text-align: center;
 }
 
-.landing {
+.landing, .bio {
   height: 100vh;
+}
+
+.inner-frame {
+  height: 93%;
+  margin: 21px 0;
 }
 
 .landing > .inner-frame {
   background-color: black;
   color: white;
-  height: 93%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.bio > .inner-frame {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bio {
+  background-color: black;
+}
+
+.bio .content {
+  max-width: 500px;
+  padding: 10%;
+}
+
+.projects {
+  border: 2px solid red
+}
+
+.projects .grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 300px);
+  grid-gap: 10px;
+  justify-content: center;
+}
+
+.projects .inner-frame {
+  margin-top: 25vh;
+}
+
+/* .project-card {
+  border: 1px solid greenyellow;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+.project-card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+} */
+
+.project-card {
+  background-color: transparent;
+  width: 300px;
+  min-width: 300px;
+  height: 300px;
+  perspective: 1000px;
+  /* margin: 10px; */
+}
+
+.project-card > .inner-card {
+  position: relative;
+  width: 100%;
+  height: 100%; 
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.project-card:hover .inner-card {
+  transform: rotateY(180deg);
+}
+
+.card-front, .card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden
+}
+
+.card-front {
+  background-color: #bbbbbb;
+}
+
+.card-back {
+  background-color: black;
+  color: white;
+  transform: rotateY(180deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-back > .project-info {
+  padding: 10px
+}
+
+.card-front > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
