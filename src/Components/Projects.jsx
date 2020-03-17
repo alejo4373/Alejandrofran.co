@@ -1,6 +1,7 @@
 import React from 'react'
 import ProjectCard from './ProjectCard'
 import FA from 'react-fontawesome'
+import '../Styles/Projects.css';
 
 const projects = [
   {
