@@ -4,10 +4,17 @@ body, html {
 
 .App {
   text-align: center;
+  font-family: Helvetica, sans-serif;
+  font-weight: lighter;
 }
 
 .section {
   min-height: 100vh;
+}
+
+.section .title {
+  margin: 2em 0;
+  font-size: 2em;
 }
 
 .white {
@@ -20,12 +27,6 @@ body, html {
   background-color: black;
   color: white;
   border: 1px solid black;
-}
-
-.landing {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
 }
 
 .bio {

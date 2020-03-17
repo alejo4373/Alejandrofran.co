@@ -4,7 +4,7 @@ function Bio() {
   return (
     <div className="bio section white">
       <div className="content">
-        <h2> I am</h2>
+        <h2 className="title"> I am</h2>
         <p>
           An Immigrant, problem solver by nature. When I was in high school I remember
           a teacher presented to us a blue screen, typed a few lines and the machine

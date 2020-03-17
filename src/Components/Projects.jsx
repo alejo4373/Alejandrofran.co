@@ -31,7 +31,7 @@ const projects = [
 function Projects() {
   return (
     <div className="projects section black">
-      <h2>Projects</h2>
+      <h2 className="title">Projects</h2>
       <FA name="rocket" />
       <div className="grid-container" >
         <div className="grid">
