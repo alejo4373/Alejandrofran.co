@@ -5,9 +5,7 @@ function ProjectCard({ project }) {
   const { title, description, imgUrl } = project
   return (
     <div className="project-card">
-
       <div className="inner-card">
-
         <div className="card-front">
           <img src={imgUrl} alt={title} />
         </div>
@@ -19,7 +17,6 @@ function ProjectCard({ project }) {
             <FA name="rocket" />
           </div>
         </div>
-
       </div>
     </div>
   )

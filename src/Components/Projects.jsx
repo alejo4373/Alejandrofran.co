@@ -30,10 +30,10 @@ const projects = [
 
 function Projects() {
   return (
-    <div className="projects">
-      <div className="inner-frame">
-        <h2>Projects</h2>
-        <FA name="rocket" />
+    <div className="projects section black">
+      <h2>Projects</h2>
+      <FA name="rocket" />
+      <div className="grid-container" >
         <div className="grid">
           {projects.map(p => <ProjectCard project={p} />)}
         </div>
