@@ -1,40 +1,34 @@
 import React from 'react'
 import '../Styles/Skills.css'
-import JS from '../Logos/JS'
-import Reactjs from '../Logos/Reactjs'
-import Redux from '../Logos/Redux'
-import Node from '../Logos/Node'
-import SkillProgressBar from './SkillProgressBar'
+import Skill from './Skill'
+import { JS, Reactjs, Redux, Node, Postgres, Git, GitHub, HTML5, CSS3 } from '../Logos'
+
+const skills = [
+  { name: 'JavaScript ES5+', level: 95, svgIcon: JS },
+  { name: 'React.js', level: 93, svgIcon: Reactjs },
+  { name: 'Redux', level: 90, svgIcon: Redux },
+  { name: 'Express.js', level: 95, svgIcon: Node },
+  { name: 'PostgreSQL', level: 89, svgIcon: Postgres },
+  { name: 'Git', level: 80, svgIcon: Git },
+  { name: 'GitHub', level: 95, svgIcon: GitHub },
+  { name: 'HTML5', level: 90, svgIcon: HTML5 },
+  { name: 'CSS3', level: 75, svgIcon: CSS3 },
+  { name: 'aws', level: 50, svgIcon: Node },
+  { name: 'UNIX/LINUX', level: 73, svgIcon: Node },
+  { name: 'GraphQL', level: 45, svgIcon: Node }
+]
+
 
 function Skills() {
   return (
     <div className="skills section white">
       <h2 className="title">Skills</h2>
-      <div class="content">
-        <div className="left">
-          <ul>
-            <li>
-              <JS id={'js'} className={'svg-logo'} />
-            </li>
-            <li>
-              <Redux id={'redux'} className={'svg-logo'} />
-            </li>
-          </ul>
-        </div>
-        <div className="right">
-          <ul>
-            <li>
-              <Reactjs id={'reactjs'} className={'svg-logo'} />
-              <h4>React.js</h4>
-              <SkillProgressBar level={95} />
-            </li>
-            <li>
-              <Node id={'node'} className={'svg-logo'} />
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
+      <ul class="content">
+        {skills.map(skill => (
+          <Skill skill={skill} />
+        ))}
+      </ul>
+    </div >
   )
 }
 
