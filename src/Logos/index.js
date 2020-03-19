@@ -11,3 +11,4 @@ export { default as CSS3 } from './CSS3';
 export { default as Aws } from './Aws';
 export { default as GraphQL } from './GraphQL';
 export { default as CLI } from './CLI';
+export { default as Heroku } from './Heroku';

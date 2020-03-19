@@ -14,7 +14,8 @@ import {
   CSS3,
   Aws,
   GraphQL,
-  CLI
+  CLI,
+  Heroku
 } from '../Logos'
 
 const skills = [
@@ -30,7 +31,8 @@ const skills = [
   { name: 'CSS3', level: 75, svgIcon: CSS3 },
   { name: 'aws', level: 50, svgIcon: Aws },
   { name: 'UNIX/LINUX', level: 73, svgIcon: CLI },
-  { name: 'GraphQL', level: 45, svgIcon: GraphQL }
+  { name: 'GraphQL', level: 45, svgIcon: GraphQL },
+  { name: 'Heroku', level: 78, svgIcon: Heroku }
 ]
 
 
