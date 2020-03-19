@@ -11,7 +11,10 @@ import {
   Git,
   GitHub,
   HTML5,
-  CSS3
+  CSS3,
+  Aws,
+  GraphQL,
+  CLI
 } from '../Logos'
 
 const skills = [
@@ -25,9 +28,9 @@ const skills = [
   { name: 'GitHub', level: 95, svgIcon: GitHub },
   { name: 'HTML5', level: 90, svgIcon: HTML5 },
   { name: 'CSS3', level: 75, svgIcon: CSS3 },
-  { name: 'aws', level: 50, svgIcon: Node },
-  { name: 'UNIX/LINUX', level: 73, svgIcon: Node },
-  { name: 'GraphQL', level: 45, svgIcon: Node }
+  { name: 'aws', level: 50, svgIcon: Aws },
+  { name: 'UNIX/LINUX', level: 73, svgIcon: CLI },
+  { name: 'GraphQL', level: 45, svgIcon: GraphQL }
 ]
 
 
