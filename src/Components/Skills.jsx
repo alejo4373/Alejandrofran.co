@@ -1,14 +1,25 @@
 import React from 'react'
 import '../Styles/Skills.css'
 import Skill from './Skill'
-import { JS, Reactjs, Redux, Node, Postgres, Git, GitHub, HTML5, CSS3 } from '../Logos'
+import {
+  JS,
+  Reactjs,
+  Redux,
+  Node,
+  Express,
+  Postgres,
+  Git,
+  GitHub,
+  HTML5,
+  CSS3
+} from '../Logos'
 
 const skills = [
   { name: 'JavaScript ES5+', level: 95, svgIcon: JS },
   { name: 'Reactjs', level: 93, svgIcon: Reactjs },
   { name: 'Redux', level: 90, svgIcon: Redux },
   { name: 'Node.js', level: 95, svgIcon: Node },
-  { name: 'Express.js', level: 95, svgIcon: Node },
+  { name: 'Express.js', level: 95, svgIcon: Express },
   { name: 'PostgreSQL', level: 89, svgIcon: Postgres },
   { name: 'Git', level: 80, svgIcon: Git },
   { name: 'GitHub', level: 95, svgIcon: GitHub },
