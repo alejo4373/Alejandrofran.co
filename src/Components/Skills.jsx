@@ -5,7 +5,7 @@ import { JS, Reactjs, Redux, Node, Postgres, Git, GitHub, HTML5, CSS3 } from '..
 
 const skills = [
   { name: 'JavaScript ES5+', level: 95, svgIcon: JS },
-  { name: 'React.js', level: 93, svgIcon: Reactjs },
+  { name: 'Reactjs', level: 93, svgIcon: Reactjs },
   { name: 'Redux', level: 90, svgIcon: Redux },
   { name: 'Express.js', level: 95, svgIcon: Node },
   { name: 'PostgreSQL', level: 89, svgIcon: Postgres },
