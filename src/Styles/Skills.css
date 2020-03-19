@@ -50,6 +50,7 @@ li h4, li .progress-bar {
 
 .svg-logo {
   width: 50px;
+  border: 1px solid red;
   grid-row: 1 / 3;
 }
 
