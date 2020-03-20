@@ -33,11 +33,31 @@ const ContactMe = () => {
         : (
           <form onSubmit={handleSubmit}>
             <label htmlFor="name">Your Name</label>
-            <input type="text" name="name" id="name" value={name} onChange={(e) => setName(e.target.value)} />
+            <input
+              type="text"
+              name="name"
+              id="name"
+              value={name}
+              onChange={(e) => setName(e.target.value)}
+              required
+            />
             <label htmlFor="email">Email</label>
-            <input type="email" name="email" id="email" value={email} onChange={(e) => setEmail(e.target.value)} />
+            <input
+              type="email"
+              name="email"
+              id="email"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+              required
+            />
             <label htmlFor="message">Message</label>
-            <textarea name="message" id="message" value={message} onChange={(e) => setMessage(e.target.value)} />
+            <textarea
+              name="message"
+              id="message"
+              value={message}
+              onChange={(e) => setMessage(e.target.value)}
+              required
+            />
             <button>Send</button>
           </form>
         )
