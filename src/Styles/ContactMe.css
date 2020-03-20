@@ -55,6 +55,16 @@
   transform: scale(0.95);
 }
 
+.contact-me .social-icons {
+  margin: 1em 0;
+  font-size: 2em;
+}
+
+.contact-me .social-icons i {
+  height: 1em;
+  width: 2em;
+}
+
 @media screen and (max-width: 654px) {
   .contact-me .content {
     font-size: 1em;

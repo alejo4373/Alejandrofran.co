@@ -13,7 +13,7 @@ function App() {
       <Landing />
       <Bio />
       <Projects />
-      <Skills />
+      {/* <Skills /> */}
       <ContactMe />
     </div>
   );

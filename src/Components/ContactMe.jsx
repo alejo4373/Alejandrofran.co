@@ -74,6 +74,13 @@ const ContactMe = () => {
           )
         }
       </div>
+      <div className="social-icons">
+        <i class="fab fa-github"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-linkedin"></i>
+        <i class="fas fa-file-alt"></i>
+        <i class="fas fa-envelope"></i>
+      </div>
     </div>
   )
 }
