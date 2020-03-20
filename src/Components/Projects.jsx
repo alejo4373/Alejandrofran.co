@@ -1,6 +1,5 @@
 import React from 'react'
 import ProjectCard from './ProjectCard'
-import FA from 'react-fontawesome'
 import '../Styles/Projects.css';
 
 const projects = [
@@ -33,7 +32,6 @@ function Projects() {
   return (
     <div className="projects section black">
       <h2 className="title">Projects</h2>
-      <FA name="rocket" />
       <div className="grid-container" >
         <div className="grid">
           {projects.map(p => <ProjectCard project={p} />)}

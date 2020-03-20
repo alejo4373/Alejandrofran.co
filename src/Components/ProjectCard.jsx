@@ -1,5 +1,4 @@
 import React from 'react'
-import FA from 'react-fontawesome'
 
 function ProjectCard({ project }) {
   const { title, description, imgUrl } = project
@@ -14,7 +13,6 @@ function ProjectCard({ project }) {
           <div className="project-info">
             <h3>{title}</h3>
             <p>{description}</p>
-            <FA name="rocket" />
           </div>
         </div>
       </div>
