@@ -15,7 +15,10 @@ import {
   Aws,
   GraphQL,
   CLI,
-  Heroku
+  Heroku,
+  Jest,
+  VScode,
+  Vim,
 } from '../Logos'
 
 const languages = [
@@ -32,16 +35,16 @@ const tools = [
   { id: 'aws', name: 'aws', svgIcon: Aws },
   { id: 'git', name: 'Git', svgIcon: Git },
   { id: 'github', name: 'GitHub', svgIcon: GitHub },
-  { id: 'vscode', name: 'VS Code', svgIcon: CLI },
-  { id: 'vim', name: 'Vim', svgIcon: CLI },
-  { id: 'unix-linux', name: 'UNIX/LINUX', svgIcon: CLI },
+  { id: 'vscode', name: 'VS Code', svgIcon: VScode },
+  { id: 'vim', name: 'Vim', svgIcon: Vim },
+  { id: 'unix-linux', name: 'Unix/Linux', svgIcon: CLI },
 ]
 
 const frameworks = [
   { id: 'express', name: 'Express.js', svgIcon: Express },
   { id: 'react', name: 'React.js', svgIcon: Reactjs },
   { id: 'redux', name: 'Redux', svgIcon: Redux },
-  { id: 'jest', name: 'Jest', svgIcon: Reactjs },
+  { id: 'jest', name: 'Jest', svgIcon: Jest },
 ]
 
 const toolbelt = [

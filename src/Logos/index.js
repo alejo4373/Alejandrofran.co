@@ -12,3 +12,6 @@ export { default as Aws } from './Aws';
 export { default as GraphQL } from './GraphQL';
 export { default as CLI } from './CLI';
 export { default as Heroku } from './Heroku';
+export { default as Jest } from './Jest';
+export { default as VScode } from './VScode';
+export { default as Vim } from './Vim';

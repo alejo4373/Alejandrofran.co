@@ -27,7 +27,8 @@
   grid-row: 1 / 3;
 }
 
-svg path:nth-child(1) {
+#html5 path:nth-child(1),
+#css3 path:nth-child(1) {
  fill: black;
 }
 
@@ -35,7 +36,16 @@ svg path:nth-child(1) {
  fill: white;
 }
 
-#graphql * {
+#vscode > path:nth-child(4) {
+  fill: #212121
+}
+
+#graphql *,
+#vscode *,
+#js *,
+#node *,
+#git *,
+#jest * {
   fill: black;
 }
 
