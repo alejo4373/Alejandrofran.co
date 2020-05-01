@@ -4,7 +4,7 @@ import './App.css';
 import Landing from './Components/Landing';
 import Bio from './Components/Bio';
 import Projects from './Components/Projects';
-import Skills from './Components/Skills';
+import ToolBelt from './Components/ToolBelt';
 import ContactMe from './Components/ContactMe';
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
       <Landing />
       <Bio />
       <Projects />
-      <Skills />
+      <ToolBelt />
       <ContactMe />
     </div>
   );

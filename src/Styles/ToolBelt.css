@@ -1,0 +1,66 @@
+.toolbelt .belt-section h3 {
+  font-size: 1.5em;
+}
+
+.toolbelt .belt-section .items {
+  display: flex;
+  padding: 0 5%;
+  text-align: left;
+  margin: 2rem 0 4rem 0; 
+  justify-content: center;
+}
+
+.toolbelt .belt-section .items li {
+  text-align: center;
+  width: 128px;
+  margin: 0 10px
+}
+
+.toolbelt .belt-section .items li h4{
+  margin-top: 1em;
+  font-weight: 300;
+  font-size: 1.1em;
+}
+
+.svg-logo {
+  width: 5em;
+  grid-row: 1 / 3;
+}
+
+svg path:nth-child(1) {
+ fill: black;
+}
+
+#js path:nth-child(2) {
+ fill: white;
+}
+
+#graphql * {
+  fill: black;
+}
+
+@media screen and (max-width: 705px) {
+  .toolbelt .belt-section .items {
+    flex-wrap: wrap;
+  }
+
+  .toolbelt .belt-section .items li {
+    width: 100px;
+    margin-bottom: 1em;
+  }
+
+  .toolbelt .belt-section .items li h4{
+    margin-top: 0.5em
+  }
+}
+
+@media screen and (max-width: 535px) {
+  .toolbelt .belt-section {
+    font-size: 0.9em; 
+  }
+ 
+  .toolbelt .belt-section .items li {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
