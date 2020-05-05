@@ -75,11 +75,21 @@ const ContactMe = () => {
         }
       </div>
       <div className="social-icons">
-        <i class="fab fa-github"></i>
-        <i class="fab fa-twitter"></i>
-        <i class="fab fa-linkedin"></i>
-        <i class="fas fa-file-alt"></i>
-        <i class="fas fa-envelope"></i>
+        <a href="https://github.com/alejo4373">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="https://twitter.com/alejo4373">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="https://linkedin.com/in/alejandro-franco">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://docs.google.com/document/d/1qDOJejmhjaRsi49dmUgAKcc83pKrZEHRAkCjn38zaiw/edit?usp=sharing">
+          <i class="fas fa-file-alt"></i>
+        </a>
+        <a href="mailto:alejandrofranco@pursuit.org">
+          <i class="fas fa-envelope"></i>
+        </a>
       </div>
     </div>
   )

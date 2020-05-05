@@ -65,6 +65,14 @@
   width: 2em;
 }
 
+.contact-me .social-icons a {
+  color: white;
+}
+
+.contact-me .social-icons a:hover {
+  color: #93ccfe;
+}
+
 @media screen and (max-width: 654px) {
   .contact-me .content {
     font-size: 1em;
