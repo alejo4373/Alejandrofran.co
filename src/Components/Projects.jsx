@@ -4,13 +4,19 @@ import '../Styles/Projects.css';
 
 const projects = [
   {
+    title: "Covidit.world",
+    description: "A website to share aspirations, reflections and appreciations through a post it note with the world after and during the COVID-19 Pandemic. There are three categories under which you can share a note, Want to Do, Learned & Grateful For.",
+    imgUrl: "/images/covidit.png",
+    live: "https://covidit.world/",
+    repo: "http://github.com/alejo4373/covid-it"
+  },
+  {
     title: "Foobar, Drinks & Sports",
     description: "Full-Stack Web App that enables sports fanatics to find establishments that will be showing a game or fight of their interest. Built with ReactJS and AWS as backend services.",
     imgUrl: "/images/foobar.png",
     live: "https://foobar-sports-and-beer.herokuapp.com/",
     repo: "http://github.com/alejo4373/foobar"
   },
-
   {
     title: "GAME ON, LET'S PLAY",
     description: "Full stack PWA that allows users to connect, play and rank in sport of their liking through a platform that allows them to find games to play wherever and whenever they want. Built with ReactJS, Node/ ExpressJS and PostgreSQL.",
