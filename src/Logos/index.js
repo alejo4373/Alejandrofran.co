@@ -15,3 +15,4 @@ export { default as Heroku } from './Heroku';
 export { default as Jest } from './Jest';
 export { default as VScode } from './VScode';
 export { default as Vim } from './Vim';
+export { default as Rocket } from './Rocket';
