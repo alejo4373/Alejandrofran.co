@@ -4,17 +4,14 @@ function Bio() {
   return (
     <div className="bio section white">
       <div className="content">
-        <h2 className="title"> I am</h2>
+        <h2 className="title"> I </h2>
+
         <p>
-          An Immigrant, problem solver by nature. When I was in high school I remember
-          a teacher presented to us a blue screen, typed a few lines and the machine
-          did all kinds of wonders. I have been into computers since then.
+          Was interested in computers since a young age. The interest became a passion when I was accepted into the Google-Funded Software Engineering Fellowship Pursuit Core 4.1, in late 2017. During my time as a Fellow, I technically led the UltraVox team to be winners at Pursuit’s 2018 Web Hackathon by making NYC bus times available to the visually impaired with an App that leveraged voice to speech and speech to text web technologies.
         </p>
+        <br />
         <p>
-          Later on I moved to the U.S and while working at a bakery I realized if I could
-          automate a step in our process we could save ourselves 15 minutes a day and human error.
-          I looked into it and after a while managed to write a small script that did what I wanted.
-          Then I decided to write software for a living and fun.
+          My hard work, passion for technology and eagerness to help others, coupled with my technical acuteness earned me being invited to become a Teaching Assistant for the 5.1 Pursuit Core Class. Now I lead as a Full Stack Web Development instructor the 6.2 class at Pursuit. My class is scheduled to graduate June 30th 2020.
         </p>
       </div>
     </div>
