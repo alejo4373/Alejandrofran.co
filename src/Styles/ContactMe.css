@@ -1,8 +1,17 @@
 .contact-me .content {
-  font-size: 1.5em;
   text-align: left;
   margin: 0 auto; 
   max-width: 35em;
+  padding: 1em;
+}
+
+.contact-me .content h3 {
+  font-size: 1.5em;
+  margin: 1.5em 0;
+}
+
+.contact-me .content p {
+  margin: 1.5em 0;
 }
 
 .contact-me .content form {
@@ -71,6 +80,14 @@
 
 .contact-me .social-icons a:hover {
   color: #93ccfe;
+}
+
+.contact-me .content .thankyou-card {
+  background-color: white;
+  color: black;
+  border: 0.45em double black;
+  margin: 0 auto 36% auto;  
+  padding: 1em;
 }
 
 @media screen and (max-width: 654px) {

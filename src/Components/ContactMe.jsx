@@ -6,8 +6,8 @@ const ContactMe = () => {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
-  const [formSent, setFormSent] = useState(false);
-  const [formSuccess, setFormSuccess] = useState(false);
+  const [formSent, setFormSent] = useState(true);
+  const [formSuccess, setFormSuccess] = useState(true);
 
   const handleSubmit = async (e) => {
     e.preventDefault()
@@ -31,7 +31,10 @@ const ContactMe = () => {
         {formSent && formSuccess
           ? (
             <div className='thankyou-card'>
-              <p>Thank you! I will get back to you shortly</p>
+              <h3>Thank you {name ? name : "Friend"}!</h3>
+              <p>I will be glad to hear from you and will reply promptly to your message.</p>
+              <p>Best,</p>
+              <p>Alejandro</p>
             </div>
           )
           : (
