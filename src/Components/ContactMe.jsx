@@ -6,19 +6,18 @@ const ContactMe = () => {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
-  const [formSent, setFormSent] = useState(true);
-  const [formSuccess, setFormSuccess] = useState(true);
+  const [formSent, setFormSent] = useState(false);
+  const [formSuccess, setFormSuccess] = useState(false);
 
   const handleSubmit = async (e) => {
     e.preventDefault()
     const url = 'https://formspree.io/mrglavjj'
     try {
-      const { data } = await axios.post(url, { name, email, message })
-      console.log(data)
+      await axios.post(url, { name, email, message })
       setFormSent(true)
       setFormSuccess(true)
     } catch (err) {
-      console.err(err)
+      alert("Oops, my website seems to be experiencing problems. Please contact me via email. I apologize for the inconvenience")
       setFormSent(true)
       setFormSuccess(false)
     }
