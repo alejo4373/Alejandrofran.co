@@ -15,16 +15,18 @@
 .grid-container .grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, 300px);
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 1fr auto;
   grid-gap: 10px;
   justify-content: center;
 }
 
-@media screen and (max-width: 1230px) {
+/* When 5 cards no longer fit horizontally in one row */
+/* 5 cards @ 300px width + 4 gaps @ 10px + 2 borders @ 1px*/
+@media screen and (max-width: 1542px) {
   .projects > .grid-container {
     position: initial;
     height: initial;
-    margin-bottom: 10%;
+    margin-bottom: 4em;
   }
 }
 
