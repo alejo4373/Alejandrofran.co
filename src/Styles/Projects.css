@@ -37,23 +37,27 @@
   perspective: 1000px;
   cursor: pointer;
 }
+.pulsating-border {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
 
-.project-card:first-child .inner-card {
-  box-shadow: 0 0 20px rgba(255, 255, 255, 0.7);
-  animation: pulse 2s infinite;
+.project-card:first-child .pulsating-border {
+  animation: pulse 1.5s infinite;
+  border:  1px solid rgb(255, 255, 255);
 }
 
 @keyframes pulse {
   0% {
-    box-shadow: 0 0 20px rgba(138, 94, 94, 0.7);
+    transform: scale(1);
   }
-  50% {
-    box-shadow: 0 0 25px rgba(255, 255, 255, 0);
-  }
+
   100% {
-    box-shadow: 0 0 20px rgba(255, 255, 255, 0.7);
+    transform: scale(1.1);
+    border:  2px solid rgba(255, 255, 255, 0);
   }
-}
+} 
 
 .project-card > .inner-card {
   position: relative;

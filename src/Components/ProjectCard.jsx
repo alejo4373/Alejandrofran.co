@@ -5,6 +5,7 @@ function ProjectCard({ project }) {
   const { title, description, imgUrl, live, repo } = project
   return (
     <div className="project-card">
+      <div className="pulsating-border"></div>
       <div className="inner-card">
         <div className="card-front">
           <img src={imgUrl} alt={title} />
