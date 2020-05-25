@@ -1,5 +1,5 @@
 import React from 'react'
-
+import "../Styles/Bio.css";
 function Bio() {
   return (
     <div className="bio section white">

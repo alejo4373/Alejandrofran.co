@@ -28,14 +28,3 @@ body, html {
   color: white;
   border: 1px solid black;
 }
-
-.bio {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.bio .content {
-  max-width: 500px;
-  padding: 10%;
-}

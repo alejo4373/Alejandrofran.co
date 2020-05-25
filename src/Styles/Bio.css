@@ -1,0 +1,11 @@
+.bio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bio .content {
+  max-width: 500px;
+  padding: 10%;
+  line-height: 1.3em;
+}
