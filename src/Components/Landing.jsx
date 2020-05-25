@@ -4,11 +4,16 @@ import "../Styles/Landing.css";
 function Landing() {
   return (
     <div className="landing section black">
-      <div className="left">
-        <h1>Alejandro Franco</h1>
+      <div className="grid">
+        <div className="left">
+          <h1>Alejandro Franco</h1>
+        </div>
+        <div className="right">
+          <p>Full Stack Web Developer</p>
+        </div>
       </div>
-      <div className="right">
-        <p>Full Stack Web Developer</p>
+      <div>
+        <img src="/arrow.png" className="down-arrow" alt="down arrow" />
       </div>
     </div>
   )
