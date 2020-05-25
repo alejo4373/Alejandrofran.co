@@ -5,7 +5,18 @@
 }
 
 .bio .content {
+  /* border: 1px solid black; */
   max-width: 500px;
-  padding: 10%;
+  padding: 0 10%;
   line-height: 1.3em;
+}
+
+@media screen and (max-width: 535px) {
+  .bio .content .title {
+    margin-top: 0;
+  }
+  
+  .bio .content {
+    font-size: 0.9em;
+  }
 }
