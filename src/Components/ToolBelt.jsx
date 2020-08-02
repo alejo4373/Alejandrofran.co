@@ -21,36 +21,40 @@ import {
   Vim,
 } from '../Logos'
 
-const languages = [
+const client = [
   { id: 'js', name: 'JavaScript', svgIcon: JS },
   { id: 'html5', name: 'HTML5', svgIcon: HTML5 },
   { id: 'css3', name: 'CSS3', svgIcon: CSS3 },
+  { id: 'react', name: 'React.js', svgIcon: Reactjs },
+  { id: 'redux', name: 'Redux', svgIcon: Redux },
+  { id: 'jest', name: 'Jest', svgIcon: Jest }
+]
+
+const server = [
   { id: 'node', name: 'Node.js', svgIcon: Node },
+  { id: 'express', name: 'Express.js', svgIcon: Express },
   { id: 'postgres', name: 'PostgreSQL', svgIcon: Postgres },
   { id: 'graphql', name: 'GraphQL', svgIcon: GraphQL },
 ]
 
-const tools = [
-  { id: 'heroku', name: 'Heroku', svgIcon: Heroku },
-  { id: 'aws', name: 'aws', svgIcon: Aws },
+const devOps = [
+  { id: 'unix-linux', name: 'Unix/Linux', svgIcon: CLI },
   { id: 'git', name: 'Git', svgIcon: Git },
   { id: 'github', name: 'GitHub', svgIcon: GitHub },
   { id: 'vscode', name: 'VS Code', svgIcon: VScode },
-  { id: 'vim', name: 'Vim', svgIcon: Vim },
-  { id: 'unix-linux', name: 'Unix/Linux', svgIcon: CLI },
+  { id: 'vim', name: 'Vim', svgIcon: Vim }
 ]
 
-const frameworks = [
-  { id: 'express', name: 'Express.js', svgIcon: Express },
-  { id: 'react', name: 'React.js', svgIcon: Reactjs },
-  { id: 'redux', name: 'Redux', svgIcon: Redux },
-  { id: 'jest', name: 'Jest', svgIcon: Jest },
+const deploymentPlatforms = [
+  { id: 'heroku', name: 'Heroku', svgIcon: Heroku },
+  { id: 'aws', name: 'aws', svgIcon: Aws },
 ]
 
 const toolbelt = [
-  { name: "Languages", items: languages },
-  { name: "Frameworks", items: frameworks },
-  { name: "Tools", items: tools }
+  { name: "Client-side", items: client },
+  { name: "Server-side", items: server },
+  { name: "Deployment", items: deploymentPlatforms },
+  { name: "DevOps Tools", items: devOps }
 ]
 
 function ToolBelt() {
