@@ -2,7 +2,7 @@ import React from 'react'
 import "../Styles/Bio.css";
 function Bio() {
   return (
-    <div className="bio section white">
+    <div className="bio section white" id="bio">
       <div className="content">
         <h2 className="title"> I </h2>
 

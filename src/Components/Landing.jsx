@@ -13,7 +13,9 @@ function Landing() {
         </div>
       </div>
       <div>
-        <img src="/arrow.png" className="down-arrow" alt="down arrow" />
+        <a href="#bio">
+          <img src="/arrow.png" className="down-arrow" alt="down arrow" />
+        </a>
       </div>
     </div>
   )
