@@ -86,7 +86,7 @@ const ContactMe = () => {
         <a href="https://linkedin.com/in/alejandro-franco">
           <i class="fab fa-linkedin"></i>
         </a>
-        <a href="https://docs.google.com/document/d/1qDOJejmhjaRsi49dmUgAKcc83pKrZEHRAkCjn38zaiw/edit?usp=sharing">
+        <a href="/Alejandro_Franco_Resume.pdf">
           <i class="fas fa-file-alt"></i>
         </a>
         <a href="mailto:alejandrofranco@pursuit.org">
@@ -96,6 +96,8 @@ const ContactMe = () => {
     </div>
   )
 }
+
+
 
 export default ContactMe
 
