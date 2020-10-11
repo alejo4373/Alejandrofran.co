@@ -24,7 +24,7 @@ const ContactMe = () => {
   }
 
   return (
-    <div className="contact-me section black">
+    <div className="contact-me section black" id="contact-me">
       <h2 className="title">Contact Me</h2>
       <div className="content">
         {formSent && formSuccess

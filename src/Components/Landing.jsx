@@ -3,7 +3,7 @@ import "../Styles/Landing.css";
 
 function Landing() {
   return (
-    <div className="landing section black">
+    <div className="landing section black" id="landing">
       <div className="grid">
         <div className="left">
           <h1>Alejandro Franco</h1>

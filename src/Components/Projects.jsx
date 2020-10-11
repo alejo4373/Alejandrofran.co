@@ -36,7 +36,7 @@ const projects = [
 
 function Projects() {
   return (
-    <div className="projects section black">
+    <div className="projects section black" id="projects">
       <h2 className="title">Projects</h2>
       <div className="grid-container" >
         <div className="grid">

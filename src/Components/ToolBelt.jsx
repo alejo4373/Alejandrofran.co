@@ -59,7 +59,7 @@ const toolbelt = [
 
 function ToolBelt() {
   return (
-    <div className="toolbelt section white">
+    <div className="toolbelt section white" id="toolbelt">
       <h2 className="title">Tool Belt</h2>{
         toolbelt.map(section => (
           <div className="belt-section">
