@@ -66,16 +66,24 @@
 
 .contact-me .social-icons {
   margin: 1em 0;
-  font-size: 2em;
+  display: flex;
+  justify-content: center;
 }
 
 .contact-me .social-icons i {
+  font-size: 2em;
   height: 1em;
   width: 2em;
 }
 
 .contact-me .social-icons a {
   color: white;
+  margin: 0 5px;
+  text-decoration: none;
+}
+
+.contact-me .social-icons a p {
+  margin-top: 10px;
 }
 
 .contact-me .social-icons a:hover {

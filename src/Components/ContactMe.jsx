@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { Link } from 'react-router-dom'
 import axios from 'axios';
 import '../Styles/ContactMe.css'
 
@@ -79,18 +80,23 @@ const ContactMe = () => {
       <div className="social-icons">
         <a href="https://github.com/alejo4373">
           <i class="fab fa-github"></i>
+          <p>GitHub</p>
         </a>
         <a href="https://twitter.com/alejo4373">
           <i class="fab fa-twitter"></i>
+          <p>Twitter</p>
         </a>
         <a href="https://linkedin.com/in/alejandro-franco">
           <i class="fab fa-linkedin"></i>
+          <p>LinkedIn</p>
         </a>
-        <a href="/Alejandro_Franco_Resume.pdf">
+        <Link to="/resume">
           <i class="fas fa-file-alt"></i>
-        </a>
+          <p>Resume</p>
+        </Link>
         <a href="mailto:alejandrofranco@pursuit.org">
           <i class="fas fa-envelope"></i>
+          <p>Email</p>
         </a>
       </div>
     </div>
